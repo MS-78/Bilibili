@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bilibili.mapper.VideoMapper">
+    <select id="queryVideoList" resultType="Video">
+        select * from Video
+    </select>
+
+    <select id="queryByID" resultType="Video">
+        select * from Video where UUID = #{UUID}
+    </select>
+
+    <insert id="addVideo" parameterType="Video">
+        insert into Video(Name,ImgName,PlayCount) values (#{Name},#{ImgName},#{PlayCount})
+    </insert>
+
+    <update id="updateVideo" parameterType="Video">
+        update Video set Name=#{Name},ImgName=#{ImgName},PlayCount=#{PlayCount} where UUID = #{UUID}
+    </update>
+
+    <delete id="deleteUser" parameterType="int">
+        delete from Video where UUID = #{UUID}
+    </delete>
+</mapper>
