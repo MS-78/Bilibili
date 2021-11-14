@@ -36,4 +36,22 @@ public class UserController {
             return false;
         }
     }
+
+    @PostMapping("/Register")
+    public User Register(@RequestParam("UserPhone") String UserPhone,
+                            @RequestParam("UserPwd") String UserPwd) {
+        User user = userMapper.queryUserByPhone(UserPhone);
+        if (user != null) {
+            if (UserPwd.equals(user.getUserPwd()))
+                return user;
+            else
+                return null;
+        } else {
+            User user1 = new User(0,UserPhone,null,UserPwd);
+            userMapper.addUser(user1);
+            user1 = userMapper.queryUserByPhone(UserPhone);
+            return user1;
+        }
+
+    }
 }

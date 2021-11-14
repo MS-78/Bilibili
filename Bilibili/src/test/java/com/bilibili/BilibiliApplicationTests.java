@@ -10,18 +10,5 @@ import java.sql.SQLException;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 class BilibiliApplicationTests {
-    @Autowired
-    DataSource dataSource;
-
-    @Test
-    void contextLoads() throws SQLException {
-        System.out.println(dataSource.getClass());
-        System.out.println(dataSource.getConnection());
-    }
-
-    @Test
-    void MybatisTest() {
-
-    }
 
 }

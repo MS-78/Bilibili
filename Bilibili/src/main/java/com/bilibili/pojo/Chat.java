@@ -11,5 +11,7 @@ public class Chat {
     private int UUID;
     private int To_videoID;
     private int From_userID;
-    private int vide_time;
+    private String content;
+    private int video_time;
+
 }

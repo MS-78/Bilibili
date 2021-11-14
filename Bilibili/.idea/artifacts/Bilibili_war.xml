@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Bilibili-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="Bilibili.war">
       <element id="artifact" artifact-name="Bilibili:war exploded" />
     </root>
   </artifact>

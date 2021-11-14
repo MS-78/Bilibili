@@ -4,5 +4,10 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 public class VideoWatching {
-    public static ConcurrentMap<String,String> Watching = new ConcurrentHashMap<>();
+    /**
+     * 当前key人正在看value视频
+     * key -- uid
+     * value -- 视频的UUID
+     */
+    public static ConcurrentMap<String,Integer> Watching = new ConcurrentHashMap<>();
 }

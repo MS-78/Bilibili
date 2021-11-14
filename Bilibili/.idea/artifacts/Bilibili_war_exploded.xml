@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Bilibili:war exploded">
-    <output-path>$PROJECT_DIR$/target/Bilibili-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/Bilibili</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -57,11 +57,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:5.3.12" />
           <element id="library" level="project" name="Maven: org.springframework:spring-websocket:5.3.12" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.47" />
-          <element id="library" level="project" name="Maven: cn.hutool:hutool-all:5.4.4" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Bilibili-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/Bilibili/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Bilibili/web/Web" />
     </root>

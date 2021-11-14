@@ -1,2 +1,16 @@
 D:\IJ_java\Bilibili\src\main\java\com\bilibili\BilibiliApplication.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\service\WebSocketServer.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\util\WebSocketMapUtil.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\pojo\Chat.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\util\VideoWatching.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\controller\ChatController.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\mapper\ChatMapper.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\config\WebSocketConfig.java
 D:\IJ_java\Bilibili\src\main\java\com\bilibili\ServletInitializer.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\mapper\UserMapper.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\mapper\VideoMapper.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\pojo\User.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\controller\VideoController.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\pojo\Video.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\controller\UserController.java
+D:\IJ_java\Bilibili\src\main\java\com\bilibili\controller\IndexController.java

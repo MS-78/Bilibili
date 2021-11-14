@@ -7,7 +7,7 @@ import java.util.List;
 
 @Mapper
 public interface ChatMapper {
-    List<Chat> queryListByVideoID(int ID);
+    List<Chat> queryListByVideoID(int UUID);
     int addChat(Chat chat);
 
 }
